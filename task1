@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mounika</h1>
+        <p>Web Developer</p>
+    </header>
+    <section id="about">
+        <img src="https://media.istockphoto.com/id/1321849541/photo/portrait-of-young-brunette-asian-indian-girl-wearing-blue-denim-shirt.jpg?s=612x612&w=0&k=20&c=3vTh6j36ATWvIkTY_4IMvqnTuSxqdV5sjCwOO-5OffI=" alt="mounika">
+        <p>
+Hello! I'm Mounika, a passionate web developer with 2 years of experience in creating dynamic and responsive websites. My expertise lies in front-end development, where I specialize in HTML, CSS, and JavaScript, ensuring that every website I build is not only visually appealing but also functional and user-friendly.
+</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+          <li>JavaScript</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Responsive Portfolio Website</h3>
+            <p>This project involved creating a responsive portfolio website using HTML, CSS, and JavaScript. The goal was to showcase my skills and experience as a web developer in an engaging and user-friendly way. The website features a clean and modern design with sections for an introduction, skills, projects, resume, and contact information. It is fully responsive and optimized for different screen sizes, ensuring a seamless user experience across devices. The project also includes a JavaScript function that displays a contact message when the user clicks the "Contact Me" button</p>
+            <img src="https://codehalweb.com/wp-content/uploads/2023/05/thumbnail-19.jpg" alt="Responsive Portfolio Website">
+        </div>
+    </section>
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="65D60412588D308C85348EE626486E3B.docx
+" download>Download Resume</a>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: abcs@gmail.com</p>
+        <p>Phone: +1234567890</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+//Css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+#about {
+    padding: 20px;
+}
+
+#about img {
+    width: 400px;
+    height: auto;
+}
+
+#skills {
+    padding: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#skills li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #f4f4f4;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#projects {
+    padding: 20px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project img {
+    width: 70%;
+    height: auto;
+}
+
+#resume {
+    padding: 20px;
+}
+
+#contact {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+//js
+function displayContactMessage() {
+    alert("Thank you for your interest! I'll get back to you as soon as possible.");
+)
